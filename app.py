@@ -11,7 +11,7 @@ app = Flask(__name__)
 def add_status():
     global alert_manager
     data = json.loads(request.data)
-    alert_manager.add_status(data['status'], data['metadata'])
+    alert_manager.add_status(data['status'], data['service'], data['metadata'])
     return jsonify({'res': 'ok'})
 
 
