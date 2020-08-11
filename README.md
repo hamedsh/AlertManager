@@ -1,2 +1,2 @@
 # AlertManager
-simple utility fir manager sending message and alerts
+simple utility for manage sending message and alerts
